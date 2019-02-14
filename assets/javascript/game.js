@@ -22,7 +22,7 @@ var rightGuessCounter = 0;
 function reset()
 {
 	choosenWord = wordBank[Math.floor(Math.random() * wordBank.length)];
-	document.getElementById('teamlogo').innerHTML = "<img src='../assets/images/"+ choosenWord + ".jpeg'/>";
+	document.getElementById('teamlogo').innerHTML = "<img src='assets/images/"+ choosenWord + ".jpeg'/>";
 	lettersInWord = choosenWord.split('');
 	numBlanks = lettersInWord.length;
 	letterGuessed = 0;
@@ -45,7 +45,7 @@ function reset()
 function startGame()
 {
 	choosenWord = wordBank[Math.floor(Math.random() * wordBank.length)];
-	document.getElementById('teamlogo').innerHTML = "<img src='../assets/images/"+ choosenWord + ".jpeg'/>";
+	document.getElementById('teamlogo').innerHTML = "<img src='assets/images/"+ choosenWord + ".jpeg'/>";
 	lettersInWord = choosenWord.split('');
 	numBlanks = lettersInWord.length;
 	rightGuessCounter = 0;
