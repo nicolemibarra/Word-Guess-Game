@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<style>
+    body { 
+        background-image: url(https://lapride.org/wp-content/uploads/2018/04/LA-Pride_Website_Event-Header_LA-Dodgers_Image-Only-1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style> 
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Word Guess Game</h1>
+			<p>Guess the MLB World Series Champion Team</p>
+		</div>
+		<div class="panel-heading">
+			<h2 class="panel-title">PLEASE PLAY WITH CAPS LOCK ON</h2>
+			<div id="teamlogo">
+			</div>
+		<div class="panel-heading">
+			<h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+		</div>
+	 	<div class="panel-body">
+	 		Strikes: <span id="wrongGuesses"></span>
+		</div>
+		<div class="panel-body">
+			Pitches Left: <span id="numGuesses"></span>
+		</div>
+		<div class="panel-body">
+			Home Run Counter: <span id="winCounter">0</span>
+		</div>
+		<div class="panel-body">
+			Strike Out Counter:  <span id="lossCounter">0</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="../assets/javascript/game.js"></script>
+</body>
+</html>

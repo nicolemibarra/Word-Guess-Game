@@ -1,0 +1,65 @@
+.jumbotron {
+    border: 5px solid gray;
+    border-radius: 5%;
+    font-size: 18px;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    height: 125px;
+    width: 30%;
+    background-color: blue;
+}
+
+.panel-title {
+    border: 5px solid gray;
+    border-radius: 5%;
+    font-size: 18px;
+    opacity: 0.7;
+    color: blue;
+    text-align: center;
+    margin: 30px auto;
+    height: 30px;
+    width: 25%;
+    background-color: white;
+}
+
+#teamlogo{
+    border: 5px solid gray;
+    border-radius: 5%;
+    font-size: 18px;
+    opacity: 0.7;
+    color: blue;
+    text-align: center;
+    margin: 30px auto;
+    height: 100px;
+    width: 10%;
+    background-color: white;
+}
+
+#wordToGuess {
+    border: 5px solid grey;
+    border-radius: 5%;
+    font-size: 60px;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    height: 80px;
+    width: 40%;
+    background-color: blue;
+}
+
+.panel-body {
+    border: 5px solid grey;
+    border-radius: 5%;
+    font-size: 20px;
+    opacity: 0.7;
+    color: navy;
+    text-align: left;
+    margin: 5px auto;
+    height: 30px;
+    width: 20%;
+    background-color: white;
+}
+
